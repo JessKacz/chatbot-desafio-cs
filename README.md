@@ -63,4 +63,12 @@ luna-cs-bot/
 4. Clique com o botão direito em `index.html` e escolha **Open with Live Server**
 5. O chat abre em `http://127.0.0.1:5500`
 
-> O workflow no n8n precisa estar ativo para o bot responder. Para ativá-lo, acesse a plataforma n8n, abra o workflow e ligue o toggle no canto superior direito para o modo produção.
+### 🌐 Demonstração Online
+
+O bot está configurado e disponível para teste no link abaixo:
+
+👉 **[Acesse a demonstração aqui](https://majestic-biscotti-f658ff.netlify.app/)**
+
+> O workflow no n8n precisa estar ativo para o bot responder. Deixarei majoritariamente ativo, mas caso não esteja respondendo é só entrar em contato comigo pelo Linkedin ou pelo meu Instagram
+https://linkedin.com/in/jessica-kaczmarkiewicz
+https://instagram.com/jessicakaczmarkiewicz 
