@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Luna Suporte</title>
+<link rel="icon" type="image/svg+xml" href="favicon.svg" />
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500&family=DM+Serif+Display&display=swap" rel="stylesheet"/>
+</head>
+<body>
+
+  <div class="chat-shell">
+    <div class="chat-header">
+      <div class="chat-avatar">N</div>
+      <div class="chat-header-info">
+        <p>Luna Suporte</p>
+        <p><span class="online-dot"></span> online agora</p>
+      </div>
+      <button class="theme-btn" id="themeBtn" title="Alternar tema">🌙</button>
+    </div>
+
+    <div class="chat-messages" id="chatMessages">
+      <div class="msg bot">
+        <div class="msg-bubble">Olá! Sou a assistente virtual da Luna. Como posso te ajudar hoje? 😊</div>
+        <span class="msg-time">agora</span>
+      </div>
+    </div>
+
+    <div class="suggestions" id="suggestions">
+      <button class="chip" onclick="sendSuggestion('Como fechar o caixa?')">Como fechar o caixa?</button>
+      <button class="chip" onclick="sendSuggestion('Como cadastrar um produto?')">Como cadastrar um produto?</button>
+      <button class="chip" onclick="sendSuggestion('Como cancelar um pedido?')">Como cancelar um pedido?</button>
+    </div>
+
+    <div class="chat-input-area">
+      <textarea id="chatInput" class="chat-input" placeholder="Digite sua dúvida..." rows="1"></textarea>
+      <button class="send-btn" id="sendBtn" onclick="sendMessage()">
+        <svg viewBox="0 0 24 24"><path d="M2.01 21L23 12 2.01 3 2 10l15 2-15 2z"/></svg>
+      </button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
